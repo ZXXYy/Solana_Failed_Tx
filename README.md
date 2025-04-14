@@ -40,7 +40,7 @@ Code and sampled dataset for the paper "Why Does My Transaction Fail? A First Lo
 ## Data Collection & Preprocessing 
 The code is under `src/crawler` directory.
 1. Config your JSON RPC API in `.env` 
-2. Due to the large data volume of Solana transaction data, we sampled one-year transaction data from 2023-08-01 to 2024-0731 and stored it in `data/sampled_dates.csv` and `data/sampled_dates_with_block_id.csv`. 
+2. Due to the large data volume of Solana transaction data, we sampled one-year transaction data from 2023-08-01 to 2024-0731 and indexed them in `data/sampled_dates.csv` and `data/sampled_dates_with_block_id.csv`. 
     - Run `src/crawler/getSampleDays.py` to get the sampled dates and block ids. The results may differ from the sampled dates we provided due to randomness.
 3. Get transactions from the RPC node, process, and store the data into mongodb. 
     The `DEBUG` variable in `.env` can be set to `True` to test the code and crawl only 50 blocks. Otherwise, the code will crawl transactions from block range in `data/sampled_dates_with_block_id.csv`, which takes 7+ days depending on your RPC rate limit.
@@ -57,30 +57,41 @@ The code is under `src/analyze` directory. We present the code of the paper in e
 When using the sample dataset, update the table name in your code from `txs `to `sample_txs`.
 
 ### RQ1 
-**Macro-level analysis**
-```
-# =====For Account Types======
-# extract signer features
-python signer_feature_extraction.py
-# clustering signers using knn
-python signer_clustering.py
-# get signer meta data
-python failed_signer.py
-# get account types info
-python initiators.py
+- Macro-level analysis
 
-# =====For triggering programs======
-python failed_program.py
+    **For Account Types**
+    ```
+    # extract signer features
+    python account_types/signer_feature_extraction.py
+    # classifying signers using decision tree
+    python account_types/signer_decision_tree.py
+    # get signer meta data
+    python account_types/failed_signer.py
+    # get account types info
+    python account_types/initiators.py
+    ```
 
-# =====For temporal trends======
-python failed_ratio.py
-```
+    **For triggering programs**
+    ```
+    # =====use dune for faster query======
+    python failed_programs/top_failed_program.py  # generate data/top_failed_program/top_failed_program.csv
+    python failed_program/program_signer.py  # generate data/program_signer/ directory for top failed programs
+    python failed_program/program_success.py  # generate data/program_success/ directory for top failed programs
+    ```
 
-**Micro-level analysis**
-```
-# uncomment the functions in the file to get the results for the rank positions, fees, CU, and fees per CU
-python failed_fee_rank.py
-```
+    **For temporal trends**
+    ```
+    # ===========
+    python time_trend.py # generate data/program_success/ directory for top failed programs
+    ```
+
+- Micro-level analysis
+    ```
+    python cu.py
+    python fee.py 
+    python index_rank.py
+    ```
+- use rq1.ipynb to visualize the results in RQ1
 
 ### RQ2
 1. Extract the error messages from the transactions' log mesaages
