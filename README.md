@@ -1,5 +1,5 @@
 Code and sampled dataset for the paper "Why Does My Transaction Fail? A First Look at the Failed Transactions on the Solana Blockchain".
-> The complete dataset is approximately 1.2TB. Due to storage limitations, we only provide a sampled dataset in the repository. To access the full dataset, please use `src/crawl/getBlocks.py` to download it.
+> The complete dataset is approximately 5TB. Due to storage limitations, we only provide a sampled dataset in the repository. To access the full dataset, please use `src/crawl/getBlocks.py` to download it.
 
 ## Environment setup
 1. Pull the MongoDB Docker container. We use MongoDB, a NoSQL database, to store and query the on-chain data.
@@ -38,12 +38,14 @@ Code and sampled dataset for the paper "Why Does My Transaction Fail? A First Lo
     ```
 
 ## Data Collection & Preprocessing 
-The code is under `src/crawl` directory.
+The code is under `src/crawler` directory.
 1. Config your JSON RPC API in `.env` 
-2. Get transactions from the RPC node, process, and store the data into mongodb. 
-    The `DEBUG` variable in `.env` can be set to `True` to test the code and crawl only 50 blocks. Otherwise, the code will crawl transactions from block 252,345,000 to 255,643,000, which takes 60+ hours depending on your RPC rate limit.
+2. Due to the large data volume of Solana transaction data, we sampled one-year transaction data from 2023-08-01 to 2024-0731 and stored it in `data/sampled_dates.csv` and `data/sampled_dates_with_block_id.csv`. 
+    - Run `src/crawler/getSampleDays.py` to get the sampled dates and block ids. The results may differ from the sampled dates we provided due to randomness.
+3. Get transactions from the RPC node, process, and store the data into mongodb. 
+    The `DEBUG` variable in `.env` can be set to `True` to test the code and crawl only 50 blocks. Otherwise, the code will crawl transactions from block range in `data/sampled_dates_with_block_id.csv`, which takes 7+ days depending on your RPC rate limit.
     ```
-    Python src/crwal/getBlocks.py
+    Python src/crwaler/getBlocks.py
     ``` 
 We provide a sample of 10,000 transactions in the `data/sample_transactions.json`. Before proceeding with the following steps, write this data to MongoDB. 
 ```

@@ -1,5 +1,4 @@
 temp/
-*.csv
 *.png
 __pycache__/
 *.db
