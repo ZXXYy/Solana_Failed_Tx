@@ -1,0 +1,698 @@
+{
+    "GHak4BpDSLV9wxhDtZaKr82bHEtr7h5EJB6VPCaBLumg": {
+        "error": [
+            {
+                "error_log": "invalid input",
+                "error_cnt": 9131
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "InvalidInput",
+                "error_cnt": 63
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction",
+                "error_cnt": 887
+            },
+            {
+                "error_log": "exceeds desired slippage limit",
+                "error_cnt": 5955
+            },
+            {
+                "error_log": "panicked at 'called `Option::unwrap()` on a `None` value', src/math.rs:433:85",
+                "error_cnt": 5
+            },
+            {
+                "error_log": "Computational budget exceeded",
+                "error_cnt": 95
+            },
+            {
+                "error_log": "invalid input",
+                "error_cnt": 332760
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 138705
+            },
+            {
+                "error_log": "expired",
+                "error_cnt": 133
+            },
+            {
+                "error_log": "InvalidSplTokenProgram",
+                "error_cnt": 131
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 136
+            },
+            {
+                "error_log": "InvalidInput",
+                "error_cnt": 15033
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 451
+            },
+            {
+                "error_log": "invalid market 1",
+                "error_cnt": 5947185
+            },
+            {
+                "error_log": "The program expected this account to be already initialized",
+                "error_cnt": 36383
+            },
+            {
+                "error_log": "Invalid account owner",
+                "error_cnt": 57
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 4
+            },
+            {
+                "error_log": "panicked at 'called `Option::unwrap()` on a `None` value', src/math.rs:451:87",
+                "error_cnt": 109
+            },
+            {
+                "error_log": "sad",
+                "error_cnt": 6471
+            },
+            {
+                "error_log": "The program expected this account to be already initialized",
+                "error_cnt": 150
+            },
+            {
+                "error_log": "invalid market 2",
+                "error_cnt": 610701
+            },
+            {
+                "error_log": "invalid instruction data",
+                "error_cnt": 1232
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 7
+            }
+        ]
+    },
+    "dXy1aX1A6d3yV2J5J3BejSeYXdUwGHErUeUS6z34BzS": {
+        "error": [
+            {
+                "error_log": "invalid account data for instruction",
+                "error_cnt": 2
+            },
+            {
+                "error_log": "exceeds desired slippage limit",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "The program expected this account to be already initialized",
+                "error_cnt": 4
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 113
+            },
+            {
+                "error_log": "Invalid index for tick array sequence",
+                "error_cnt": 10176
+            },
+            {
+                "error_log": "InvalidSplTokenProgram",
+                "error_cnt": 5
+            },
+            {
+                "error_log": "Pyth oracle status is not 'trading'",
+                "error_cnt": 185
+            },
+            {
+                "error_log": "A raw constraint was violated",
+                "error_cnt": 2337
+            },
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 5207981
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction",
+                "error_cnt": 2
+            },
+            {
+                "error_log": "Not enough account keys given to the instruction",
+                "error_cnt": 34252
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 6353
+            },
+            {
+                "error_log": "Could not retrieve updated price feed from the Pyth oracle",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "Invalid tick array sequence provided for instruction",
+                "error_cnt": 64832
+            },
+            {
+                "error_log": "Computational budget exceeded",
+                "error_cnt": 816
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction",
+                "error_cnt": 2150
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 195
+            },
+            {
+                "error_log": "Bitmap extension account is not provided",
+                "error_cnt": 83459
+            },
+            {
+                "error_log": "Liquidity insufficient",
+                "error_cnt": 80
+            }
+        ]
+    },
+    "5STxtEtnh9UpNYgbFLBTYDUjN1CQqAcsaoBf1JN17e3R": {
+        "error": [
+            {
+                "error_log": "InvalidStatus",
+                "error_cnt": 25556
+            },
+            {
+                "error_log": "exceeds desired slippage limit",
+                "error_cnt": 4792082
+            },
+            {
+                "error_log": "Account is frozen",
+                "error_cnt": 1871
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction",
+                "error_cnt": 159
+            },
+            {
+                "error_log": "The amm account owner is not match with this program",
+                "error_cnt": 7061
+            },
+            {
+                "error_log": "InvalidSplTokenProgram",
+                "error_cnt": 2358
+            },
+            {
+                "error_log": "InvalidAccountData",
+                "error_cnt": 11
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 42599
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 62
+            }
+        ]
+    },
+    "8h7SCUPk8JPZyfbmCogrDfw4UVEr2g8q75QLdikEuKrm": {
+        "error": [
+            {
+                "error_log": "InvalidSplTokenProgram",
+                "error_cnt": 615
+            },
+            {
+                "error_log": "exceeds desired slippage limit",
+                "error_cnt": 4168539
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 20194
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 19348
+            },
+            {
+                "error_log": "0x1",
+                "error_cnt": 3
+            },
+            {
+                "error_log": "The amm account owner is not match with this program",
+                "error_cnt": 7127
+            },
+            {
+                "error_log": "InvalidInput",
+                "error_cnt": 907
+            },
+            {
+                "error_log": "InvalidAccountData",
+                "error_cnt": 323
+            },
+            {
+                "error_log": "Account is frozen",
+                "error_cnt": 22
+            },
+            {
+                "error_log": "User token input does not match amm",
+                "error_cnt": 515
+            },
+            {
+                "error_log": "owner does not match",
+                "error_cnt": 154
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 36
+            },
+            {
+                "error_log": "InvalidStatus",
+                "error_cnt": 22293
+            }
+        ]
+    },
+    "dXy1RRzn41c9nBEK8u1f8RQjyfA6FdEDmFDqoXqfBaN": {
+        "error": [
+            {
+                "error_log": "Account not associated with this Mint",
+                "error_cnt": 56
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction",
+                "error_cnt": 1358
+            },
+            {
+                "error_log": "Not enought tick array account",
+                "error_cnt": 10
+            },
+            {
+                "error_log": "Invalid tick array sequence provided for instruction",
+                "error_cnt": 90465
+            },
+            {
+                "error_log": "User token input does not match amm",
+                "error_cnt": 82
+            },
+            {
+                "error_log": "Insufficient liquidity for this direction",
+                "error_cnt": 6
+            },
+            {
+                "error_log": "Pyth oracle status is not 'trading'",
+                "error_cnt": 475
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction",
+                "error_cnt": 3
+            },
+            {
+                "error_log": "invalid account data for instruction",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 70
+            },
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 3774603
+            },
+            {
+                "error_log": "Invalid index for tick array sequence",
+                "error_cnt": 18323
+            },
+            {
+                "error_log": "Bitmap extension account is not provided",
+                "error_cnt": 41245
+            },
+            {
+                "error_log": "Liquidity insufficient",
+                "error_cnt": 1535
+            },
+            {
+                "error_log": "A raw constraint was violated",
+                "error_cnt": 20608
+            },
+            {
+                "error_log": "Invalid token mint",
+                "error_cnt": 59
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 9062
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 229
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "Computational budget exceeded",
+                "error_cnt": 628
+            },
+            {
+                "error_log": "Not enough account keys given to the instruction",
+                "error_cnt": 29485
+            }
+        ]
+    },
+    "DGE1XE154o4zEmfEu3XcbVvjY4B51vZT1A4vs8fZWcah": {
+        "error": [
+            {
+                "error_log": "InvalidStatus",
+                "error_cnt": 301565
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 259882
+            },
+            {
+                "error_log": "InvalidOwner",
+                "error_cnt": 664059
+            },
+            {
+                "error_log": "exceeds desired slippage limit",
+                "error_cnt": 724
+            },
+            {
+                "error_log": "Non-native account can only be closed if its balance is zero",
+                "error_cnt": 6
+            },
+            {
+                "error_log": "InvalidInput",
+                "error_cnt": 1239
+            },
+            {
+                "error_log": "Solmap already minted",
+                "error_cnt": 6
+            },
+            {
+                "error_log": "The amm account owner is not match with this program",
+                "error_cnt": 1579781
+            },
+            {
+                "error_log": "Account is frozen",
+                "error_cnt": 726
+            },
+            {
+                "error_log": "Minting is not live yet",
+                "error_cnt": 2
+            },
+            {
+                "error_log": "InvalidAccountData",
+                "error_cnt": 26
+            },
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "IncorrectProgramId",
+                "error_cnt": 2
+            },
+            {
+                "error_log": "0x1",
+                "error_cnt": 620
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 584329
+            },
+            {
+                "error_log": "InvalidSplTokenProgram",
+                "error_cnt": 18386
+            }
+        ]
+    },
+    "vEp6r1ArgChJsKghxCND4TVarEeVo6uSMWsEDFuCKER": {
+        "error": [
+            {
+                "error_log": "Computational budget exceeded",
+                "error_cnt": 1127
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction",
+                "error_cnt": 7057
+            },
+            {
+                "error_log": "InvalidStatus",
+                "error_cnt": 3
+            },
+            {
+                "error_log": "InvalidAccountData",
+                "error_cnt": 3
+            },
+            {
+                "error_log": "InvalidInput",
+                "error_cnt": 124
+            },
+            {
+                "error_log": "exceeds desired slippage limit",
+                "error_cnt": 3286082
+            },
+            {
+                "error_log": "InvalidSplTokenProgram",
+                "error_cnt": 3743
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 80348
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 5496
+            },
+            {
+                "error_log": "The amm account owner is not match with this program",
+                "error_cnt": 454
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 7125
+            },
+            {
+                "error_log": "Account is frozen",
+                "error_cnt": 2164
+            }
+        ]
+    },
+    "4ALGC112XpY6CTkNUe1Q1tGprPQehDgUGh3J82fwvYTX": {
+        "error": [
+            {
+                "error_log": "The program expected this account to be already initialized",
+                "error_cnt": 618060
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 54009
+            },
+            {
+                "error_log": "Account is frozen",
+                "error_cnt": 1482
+            },
+            {
+                "error_log": "panicked at programs/heavy_modified/src/dot/program.rs:60:9:",
+                "error_cnt": 54400
+            },
+            {
+                "error_log": "The amm account owner is not match with this program",
+                "error_cnt": 2367640
+            },
+            {
+                "error_log": "InvalidStatus",
+                "error_cnt": 3535
+            },
+            {
+                "error_log": "0x1",
+                "error_cnt": 2
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 1614
+            },
+            {
+                "error_log": "exceeds desired slippage limit",
+                "error_cnt": 6340
+            },
+            {
+                "error_log": "InvalidInput",
+                "error_cnt": 25
+            }
+        ]
+    },
+    "urbanizy9Jse2q9mDYW55Cc6P1P6zG7JCj2cut1BwMS": {
+        "error": [
+            {
+                "error_log": "exceeds desired slippage limit",
+                "error_cnt": 45615
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 2840
+            },
+            {
+                "error_log": "InvalidSplTokenProgram",
+                "error_cnt": 111
+            },
+            {
+                "error_log": "Computational budget exceeded",
+                "error_cnt": 9251
+            },
+            {
+                "error_log": "slippage: Too much SOL required to buy the given amount of tokens",
+                "error_cnt": 79
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 80228
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction",
+                "error_cnt": 27883
+            },
+            {
+                "error_log": "OOMSB",
+                "error_cnt": 527
+            },
+            {
+                "error_log": "invalid account data for instruction",
+                "error_cnt": 12
+            },
+            {
+                "error_log": "InvalidStatus",
+                "error_cnt": 95211
+            },
+            {
+                "error_log": "No balance",
+                "error_cnt": 506
+            },
+            {
+                "error_log": "The program expected this account to be already initialized",
+                "error_cnt": 9
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 51330
+            },
+            {
+                "error_log": "0x1",
+                "error_cnt": 234
+            },
+            {
+                "error_log": "The amm account owner is not match with this program",
+                "error_cnt": 2681572
+            },
+            {
+                "error_log": "Account is frozen",
+                "error_cnt": 1
+            }
+        ]
+    },
+    "NArbrFExwqyusw6NYnL4up2CSeQwdSScTdTgd8Zu9fJ": {
+        "error": [
+            {
+                "error_log": "exceeds desired slippage limit",
+                "error_cnt": 448
+            },
+            {
+                "error_log": "panicked at 'range end index 72 out of range for slice of length 0', library/core/src/slice/index.rs:73:5",
+                "error_cnt": 27863
+            },
+            {
+                "error_log": "Not enought tick array account",
+                "error_cnt": 398
+            },
+            {
+                "error_log": "Swap special amount can not be zero",
+                "error_cnt": 104
+            },
+            {
+                "error_log": "Missing tickarray bitmap extension account",
+                "error_cnt": 765
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction #134804",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "Program is frozen",
+                "error_cnt": 3
+            },
+            {
+                "error_log": "InvalidStatus",
+                "error_cnt": 1523
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction #93262",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction #22311",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "There are no tradable amount to swap",
+                "error_cnt": 1012
+            },
+            {
+                "error_log": "Account is frozen",
+                "error_cnt": 8
+            },
+            {
+                "error_log": "Exception err",
+                "error_cnt": 114
+            },
+            {
+                "error_log": "Computational budget exceeded",
+                "error_cnt": 2
+            },
+            {
+                "error_log": "Could not retrieve updated price feed from the Pyth oracle",
+                "error_cnt": 90
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction #66487",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "Given pool token amount results in zero trading tokens",
+                "error_cnt": 1076
+            },
+            {
+                "error_log": "Trade is not profitable",
+                "error_cnt": 2673385
+            },
+            {
+                "error_log": "Pyth oracle status is not 'trading'",
+                "error_cnt": 5440
+            },
+            {
+                "error_log": "Invalid tick array sequence provided for instruction",
+                "error_cnt": 58570
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 25639
+            },
+            {
+                "error_log": "Invalid index for tick array sequence",
+                "error_cnt": 5822
+            },
+            {
+                "error_log": "exceeded CUs meter at BPF instruction #19500",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "Oracle confidence is too high",
+                "error_cnt": 732
+            }
+        ]
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "13LURAmP6YL86g72uSEebxpGKrectZrrnMKXzCQ6gKwb": {
+        "error": [
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "exceeds desired slippage limit",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 6
+            },
+            {
+                "error_log": "Missing tickarray bitmap extension account",
+                "error_cnt": 3
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 4
+            }
+        ]
+    },
+    "5CUC3zbZjQjtzfagHdHpJf7CkoJ5a1zzWJp5btkeLzbx": {
+        "error": [
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 12
+            }
+        ]
+    },
+    "5cyQFwYR111DvqN2XFgYiw3ns8QouU2WQQzvBcy776uy": {
+        "error": [
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "The program expected this account to be already initialized",
+                "error_cnt": 7
+            },
+            {
+                "error_log": "Account is frozen",
+                "error_cnt": 1
+            }
+        ]
+    },
+    "Gf1j8ykEUf7bh1vi7bB1EUR5VRqwfz8JvNPGkN8XKiUc": {
+        "error": [
+            {
+                "error_log": "The program expected this account to be already initialized",
+                "error_cnt": 4
+            },
+            {
+                "error_log": "The program expected this account to be already initialized",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "The program expected this account to be already initialized",
+                "error_cnt": 3
+            }
+        ]
+    },
+    "2sENCBNJbMNA8UWZ2r3Nuyhg7kzokCqtSfLA37WkZg3V": {
+        "error": [
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 3
+            },
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 3
+            }
+        ]
+    },
+    "3nw7GKDbjdCNpf1VFGzAGp7z6BK1FjrzfPyqGWiwCUgc": {
+        "error": [
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 7
+            }
+        ]
+    },
+    "CLZXRwYs3epjYsCE4fN7HwMLS4A9uxU2e5e42j8JK6CA": {
+        "error": [
+            {
+                "error_log": "specified price not within current price",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "insufficient funds",
+                "error_cnt": 4
+            },
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "The program expected this account to be already initialized",
+                "error_cnt": 1
+            }
+        ]
+    },
+    "AcHrMyJ3Vao2qyZLUX2u9gKtx7jRJV2JamNt55UiUjY8": {
+        "error": [
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 7
+            }
+        ]
+    },
+    "Arz7CPsKW6tVgrwSAjh9UapCgUfYWwtksyQW5k9pfQd8": {
+        "error": [
+            {
+                "error_log": "Bitmap extension account is not provided",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "The given account did not sign",
+                "error_cnt": 3
+            },
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 3
+            }
+        ]
+    },
+    "Bu5JeCUATUhFArmZZ65x4o5hAit4yQ2fn95MDQUssxVM": {
+        "error": [
+            {
+                "error_log": "IOC order failed to meet minimum fill requirements",
+                "error_cnt": 1
+            },
+            {
+                "error_log": "Slippage tolerance exceeded",
+                "error_cnt": 6
+            }
+        ]
+    }
+}

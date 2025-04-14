@@ -1,0 +1,42 @@
+Price or Profit not met,Invalid Status,Out of funds,Validity Expiration,Invalid Input Parameters,Invalid Input Account,Out of Resource,Program Logic Constraint Violation,Program Runtime Error,Unknown
+Slippage tolerance exceeded,The amm account owner is not match with this program,insufficient funds,Stale report,Invalid tick array sequence provided for instruction,InvalidOwner,"memory allocation failed, out of memory",Sequence out of order,"panicked at NUM, src\processor.rs",X
+exceeds desired slippage limit,InvalidStatus,Insufficient amount,Delay transaction,InvalidInput,Invalid Market 1,exceeded CUs meter at BPF instruction,Check Failed,panicked at programs/pump/src/lib.rs:232:9:,x
+Token balance is negative in the end,Invalid oracle update,Insufficient collateral,RevertFill,Provided SqrtPriceLimit not in the same direction as the swap,InvalidSplTokenProgram,Computational budget exceeded,Sufficient collateral,panicked at programs/pump/src/lib.rs:236:9:,OOO
+Slippage error,Market is not able to be unlcocked,Liquidity insufficient,The current slot is past the specified slot number,TakerOrderNotFound,invalid market 2,OOMSB,Account has sufficient margin,panicked at 'called `Option::unwrap()` on a `None` value',Custom program error: 0x2
+The expected profit was not met,Pyth oracle status is not 'trading',No balance,Current Nonce Mismatch,Order does not exist,An unexpected oracle account was provided for the transaction,exceeded CUs meter at BPF instruction #NUM,A seeds constraint was violated,panicked at 'range end index NUM out of range for slice of length NUM,Custom program error: 0x1e
+Trade is not profitable,Account is frozen,Insufficient liquidity for this direction,Slot expired,invalid input,Not enough account keys given to the instruction,,A mut constraint was violated,panicked at programs/heavy_modified/src/dot/program.rs:60:9:,Wrong data
+Amount out below minimum threshold,The provided oracle has already responded this round,MBR,Time expired,Square root price limit overflow,Bitmap extension account is not provided,,Invalid calculation,"panicked at '', program/src/lib.rs:77:9",NotFound
+ExceededSlippage,Stale oracle price,Failed initial margin requirement,The transaction has expired,Invalid tick array sequence provided for instruction,The given account is owned by a different program than expected,,Scanning is on cooldown,"panicked at 'explicit panic', src/lib.rs:1291:9",The publish time is older than the previous publish time
+Balance decreased,Invalid state,,expired,ZeroSize,Not enought tick array account,,Token weight after swap exceeds target weight,"panicked at 'Integer overflow when casting to u64', programs/amm/src/libraries/big_num.rs:9:1",Custom program error: 0x9
+Profit rekt,Aggregator round open called too early,,Max Slot Exceeded,An account's data was too small,Invaild first tick array account,,bad sequence!,panicked at programs/authorizer/src/instructions/reclaim_session.rs:45:97:,Nothing to trade
+ExceededM,Fetched oracle price is invalid,,,Invalid index for tick array sequence,Missing tickarray bitmap extension account,,Insufficient Ship Cargo Capacity,"panicked at 'assertion failed: mid <= self.len()', programs/jupiter/src/amm/phoenix.rs:23:53",Custom program error: 0x6
+Too little output received,The bonding curve has completed and liquidity migrated to raydium,,,InvalidAccountData,Invalid token mint,,A raw constraint was violated,"panicked at 'no wsol 2', programs/onchain/src/lib.rs:662:9",bbbbbbbbbbbbbbbbbbbbb
+final NUM orig NUM,Not time to fill,,,InvalidMakingAmount,IncorrectProgramId,,Insufficient cargo amount,"panicked at 'no base 2', programs/onchain/src/lib.rs:666:9",banana2
+UnprofitableRoute,Already bought,,,Given pool token amount results in zero trading tokens,Address of the provided oracle account is incorrect,,Wrong game ID,"panicked at 'called `Option::unwrap()` on a `None` value', src/math.rs:433:85",sad
+Exceeded amount slippage tolerance,mintx: user already successfully submit a swap!,,,PerpMarketNotFound,invalid signer,,Illegal liquidation,"panicked at 'called `Option::unwrap()` on a `None` value', src/math.rs:451:87",0xNUM
+slippage: Too much SOL required to buy the given amount of tokens,Max number of orders taken,,,An account's data contents was invalid,The provided token account's balance is out of bounds,,The provided victim signature was already used,panicked at programs/heavy_modified/src/dot/program.rs:60:9:,Custom program error: 0xNUM
+AskNotCrossed,Coin is already dropped,,,BadSignature,The posted VAA account has the wrong owner,,Not enough unapproved mints left,"panicked at 'range end index 72 out of range for slice of length 0', library/core/src/slice/index.rs:73:5",success
+"panicked at 'Not a profitable route', src/lib.rs:1048:9",Trigger order cannot be executed,,,invalid instruction data,UnverifiedVaa,,,Exception err,Log truncated
+No Profit at the end,mintx::pump : user already successfully submit a swap!,,,invalid account data for instruction,User token input does not match amm,,,panicked at,Custom program error: 0xfa17ed
+IOC order failed to meet minimum fill requirements,AlreadySold,,,Swap special amount can not be zero,Invalid admin fee account,,,panicked at filepath,Custom program error: 0xf
+Swap instruction exceeds desired slippage limit,Concurrent merkle tree error,,,invalid program argument,owner does not match,,,panicked at programs/pump/src/lib.rs,NL
+Unprofitable swap,Stale oracle data,,,Delegated amount is invalid,Program ID was not as expected,,,panicked at 'range end index NUM out of range for slice of length NUM',
+Fail: loss tx🥺,The program expected this account to be already initialized,,,Invalid input data,Invalid account owner,,,panicked at 'explicit panic',
+Amount out is less,Non-native account can only be closed if its balance is zero,,,Oracle confidence is too high,Account not associated with this Mint,,,"panicked at 'called `Result::unwrap()` on an `Err` value: (NUM, NUM)'",
+BidNotCrossed,Minting is not live yet,,,SpotMarketNotFound,The given account did not sign,,,panicked at 'attempt to subtract with overflow',
+Order price too far from mark price,Solmap already minted,,,8 byte discriminator did not match what was expected,invalid market 1,,,IO Error: Invalid bool representation: 194,
+slippage: Too little SOL received to sell the given amount of tokens,Program is frozen,,,Invalid bin id,invalid Market 2,,,,
+moni gon,An attempt to operate on an account that hasn't been initialized,,,InvalidOrder,Provided seeds do not result in a valid address,,,,
+NoArbOpportunity,Invalid account state for operation,,,,InvalidTokenAccount,,,,
+There are no tradable amount to swap,Pricing not up to date,,,,data account owner is not program,,,,
+Profit calculation error,Market is locked,,,,,,,,
+Fill or kill order was not filled for full size,an oracle is stale,,,,,,,,
+"swap failure, not enough output","""Svb Oracle not updated in last X seconds""",,,,,,,,
+"panicked at 'Not a profitable route', src/lib.rs:756:9",OrderNotTriggerable,,,,,,,,
+NoProfit,Could not retrieve updated price feed from the Pyth oracle,,,,,,,,
+"panicked at 'Not a profitable route', src/lib.rs:760:9","[G120] The price history is too stale, requires more recent updates",,,,,,,,
+NoChance,Pool disabled,,,,,,,,
+panicked at 'Not a profitable route',User Has No Position In Market,,,,,,,,
+specified price not within current price,Both parties need to agree to this sale,,,,,,,,
+health must be positive or not decrease,Not enough unapproved mints left,,,,,,,,
+PositionLimitBreached,,,,,,,,,

@@ -103,6 +103,7 @@ When using the sample dataset, update the table name in your code from `txs `to 
     ```
     python error_type.py
     ```
+ 
 ### RQ3
 1. Get the top failed programs and their corresponding error types
 ```

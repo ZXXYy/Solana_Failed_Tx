@@ -1,15 +1,13 @@
 temp/
-*.png
 __pycache__/
 *.db
 *.tar
 *.log
 node_modules/
-*.json
 *.html
 deprecated/
 .env-local
 !data/error_categorization.csv
-!data/failed_txs.log
+!data/failed_txs_one_year.log
 !data/sample_transactions.json
 logs/
