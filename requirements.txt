@@ -1,0 +1,14 @@
+requests
+tqdm
+python-dotenv 
+base58
+networkx
+requests
+graphviz
+solana
+PyExecJS
+aiohttp
+scikit-learn
+motor
+ploty
+kaleido

@@ -1,0 +1,16 @@
+temp/
+*.csv
+*.png
+__pycache__/
+*.db
+*.tar
+*.log
+node_modules/
+*.json
+*.html
+deprecated/
+.env-local
+!data/error_categorization.csv
+!data/failed_txs.log
+!data/sample_transactions.json
+logs/
